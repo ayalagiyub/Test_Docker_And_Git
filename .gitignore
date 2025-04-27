@@ -1,4 +1,4 @@
-git rm --cached *.jpg
-git rm --cached *.pdf
-git rm --cached *.JPG
+*.jpg
+*.pdf
+*.JPG
 
