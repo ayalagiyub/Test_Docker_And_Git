@@ -12,7 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # העתקת קובץ האפליקציה
 COPY convert_image_to_pdf.py .
-
+# הגדרת הרשאות הרצה לקובץ
+RUN chmod +x convert_image_to_pdf.py
 # הפקודה שתופעל בקונטיינר
 CMD ["python", "convert_image_to_pdf.py"]
 
